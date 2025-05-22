@@ -26,9 +26,9 @@ PORT=3000
 
 ## UX
 
-![UX](ux.drawio.svg#5ewBEbDbxLdpWcT6juil)
-
 ### Home /
+
+![Home UX](./docs/home.drawio.svg)
 
 Returns the homepage with a "Join Game" widget and a widget with a list of new games to choose from.
 
@@ -43,6 +43,8 @@ If the "Join" button is pressed, the player is navigated to the Lobby page.
 If one of the new games is selected, the player is taken to a new Lobby page for that game (and this player is considered the "host").
 
 ### Lobby /game/{CODE}
+
+![Lobby UX](./docs/lobby.drawio.svg)
 
 The lobby page is where all players gather before the game starts.
 
@@ -74,15 +76,18 @@ The player can click the "Share" button to open up a modal with a QR code and a 
 
 Uses `GET /api/qr/{CODE}` to get the QR code.
 
-## Data Model
+### Libbit
 
-### GameType
+![Libbit UX](./docs/libbit.drawio.svg)
 
-### Game
+#### Input
 
-```json
-{
-  "code": "libbit",
-  
-}
-```
+#### Waiting Room
+
+#### Voting
+
+#### View Results
+
+#### View Votes
+
+#### Winner Screen
