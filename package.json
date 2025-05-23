@@ -11,10 +11,13 @@
   "dependencies": {
     "@dotenvx/dotenvx": "^1.44.1",
     "@tailwindcss/vite": "^4.1.7",
+    "daisyui": "^5.0.37",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "lucide-react": "^0.511.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.0",
     "tailwindcss": "^4.1.7"
   },
   "devDependencies": {
